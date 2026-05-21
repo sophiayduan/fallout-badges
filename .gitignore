@@ -4,7 +4,7 @@
 *.kicad_sch-bak
 *-backups
 *-cache*
-#auto_saved_files#/
+\#auto_saved_files\#
 _autosave-*
 *~
 
