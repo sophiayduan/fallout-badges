@@ -4,8 +4,8 @@
 *.kicad_sch-bak
 *-backups
 *-cache*
+#auto_saved_files#/
 _autosave-*
-~*
 *~
 
 # KiCad internal
@@ -29,9 +29,6 @@ fp-info-cache
 *.gbo
 *.drl
 
-# BOM exports 
-# *_bom.csv
-# *_bom.xml
 
 # Backups
 backups/
