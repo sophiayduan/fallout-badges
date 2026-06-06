@@ -1,0 +1,5 @@
+(version 1)
+(rule diff_pair_rf
+   (condition "A.NetClass == 'RF_DIFF' && B.NetClass == 'RF_DIFF'")
+   (constraint clearance (min 0.15mm))
+)

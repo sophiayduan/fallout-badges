@@ -2,7 +2,7 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "752d5bea-02ef-485e-bfd0-2d899449633a")
+	(uuid "7e6a5fe4-12f2-4851-be4e-301f66ed8f50")
 	(paper "A4")
 	(lib_symbols
 		(symbol "LED:SK6812"
@@ -361,7 +361,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:VBUS"
+		(symbol "power:VDD"
 			(power)
 			(pin_numbers
 				(hide yes)
@@ -382,7 +382,7 @@
 					(hide yes)
 				)
 			)
-			(property "Value" "VBUS"
+			(property "Value" "VDD"
 				(at 0 3.556 0)
 				(effects
 					(font
@@ -408,7 +408,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(property "Description" "Power symbol creates a global label with name \"VDD\""
 				(at 0 0 0)
 				(effects
 					(font
@@ -426,7 +426,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "VBUS_0_1"
+			(symbol "VDD_0_1"
 				(polyline
 					(pts
 						(xy -0.762 1.27) (xy 0 2.54)
@@ -464,7 +464,7 @@
 					)
 				)
 			)
-			(symbol "VBUS_1_1"
+			(symbol "VDD_1_1"
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
@@ -488,169 +488,169 @@
 		)
 	)
 	(junction
-		(at 147.32 110.49)
+		(at 144.78 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "09ebe1c4-4d79-4cf4-a223-f2c20d05bf20")
+		(uuid "3fe580b6-3066-4be8-8ce0-83539329bc40")
 	)
 	(no_connect
-		(at 130.81 93.98)
-		(uuid "e5a6d6e7-786d-4106-aae2-f153bcaf1aa9")
+		(at 128.27 99.06)
+		(uuid "2f8fcd1e-cdf8-4b02-a42d-6368a7e3cd0a")
 	)
 	(wire
 		(pts
-			(xy 170.18 101.6) (xy 175.26 101.6)
+			(xy 115.57 106.68) (xy 120.65 106.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0fc8cdc0-01aa-4325-a953-cb3dfe76a21a")
+		(uuid "31138f25-54ae-416f-a549-8f5484c61218")
 	)
 	(wire
 		(pts
-			(xy 162.56 110.49) (xy 147.32 110.49)
+			(xy 160.02 114.3) (xy 160.02 116.84)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "35fc2772-b0a8-4be1-a0fd-275152efbfdd")
+		(uuid "3bc0271f-d36b-4d29-a1ac-09759716cb8e")
 	)
 	(wire
 		(pts
-			(xy 148.59 100.33) (xy 148.59 101.6)
+			(xy 128.27 116.84) (xy 128.27 114.3)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4185b910-1976-433b-8c19-3d396bd891bd")
+		(uuid "3e53d5dc-a673-4831-baac-6f49c0ea84bc")
 	)
 	(wire
 		(pts
-			(xy 148.59 101.6) (xy 154.94 101.6)
+			(xy 147.32 106.68) (xy 152.4 106.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4b3f20c9-af45-4a3c-b48a-2d3c488273bf")
+		(uuid "578ef6c5-e610-4052-9458-c7b597acc71e")
 	)
 	(wire
 		(pts
-			(xy 138.43 101.6) (xy 143.51 101.6)
+			(xy 160.02 96.52) (xy 160.02 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4f129264-436c-422e-b89c-2158f69d86f3")
+		(uuid "63d6dfe0-8860-4f9b-8dc3-d2d215900d93")
 	)
 	(wire
 		(pts
-			(xy 116.84 100.33) (xy 116.84 101.6)
+			(xy 144.78 116.84) (xy 128.27 116.84)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7c2b6beb-ddac-4914-8d3d-210119f06cf3")
+		(uuid "6c5269bb-26ee-4814-8378-e64b259df985")
 	)
 	(wire
 		(pts
-			(xy 162.56 109.22) (xy 162.56 110.49)
+			(xy 144.78 116.84) (xy 160.02 116.84)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "922c2b28-0c24-4274-af9b-4fff4c842e8f")
+		(uuid "8c2227c6-4cd6-42ba-835a-67e7be3a8b36")
 	)
 	(wire
 		(pts
-			(xy 130.81 110.49) (xy 147.32 110.49)
+			(xy 144.78 119.38) (xy 144.78 116.84)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ae7af280-adbb-4fee-b7ab-2ff7678599a8")
+		(uuid "91bcbf9c-4849-47a4-bdfb-61ecf812fd44")
 	)
 	(wire
 		(pts
-			(xy 130.81 109.22) (xy 130.81 110.49)
+			(xy 147.32 105.41) (xy 147.32 106.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b13d68e0-b4c4-457d-8030-97b8484af50e")
+		(uuid "be3015ca-f557-4713-8603-bd0398a38505")
 	)
 	(wire
 		(pts
-			(xy 162.56 91.44) (xy 162.56 93.98)
+			(xy 167.64 106.68) (xy 175.26 106.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b20dbcb1-0c3d-4d89-aa26-93abeaa83dad")
+		(uuid "bf7e8fa3-b062-4d18-8a18-562bb6d432d8")
 	)
 	(wire
 		(pts
-			(xy 116.84 101.6) (xy 123.19 101.6)
+			(xy 115.57 105.41) (xy 115.57 106.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e4362935-23e4-4563-aa61-34d850641fab")
+		(uuid "d55559aa-f04a-43b6-a0a7-d6082de0b990")
 	)
 	(wire
 		(pts
-			(xy 147.32 110.49) (xy 147.32 113.03)
+			(xy 135.89 106.68) (xy 143.51 106.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ea1e30e6-c75b-4516-9fd8-63d018b75083")
+		(uuid "e352afb1-fb5e-4a52-86d5-b4a6b78ea179")
 	)
 	(hierarchical_label "DOUT"
 		(shape input)
-		(at 162.56 91.44 0)
+		(at 160.02 96.52 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "182a8635-1f9e-44ba-ad1e-288551637508")
+		(uuid "6a2d2180-bad3-4afb-8756-5d686e178518")
 	)
 	(hierarchical_label "DIN"
 		(shape input)
-		(at 147.32 113.03 0)
+		(at 144.78 119.38 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "660674a1-ce93-4165-a455-529010614986")
+		(uuid "dbb33395-0663-4e5a-a575-bdf70d820d46")
 	)
 	(symbol
-		(lib_id "power:VBUS")
-		(at 148.59 100.33 0)
+		(lib_id "power:VDD")
+		(at 147.32 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "3246155a-4c52-4350-919b-50642f102b5a")
-		(property "Reference" "#PWR013"
-			(at 148.59 104.14 0)
+		(uuid "196f0876-a8fb-4f60-a2f8-0992fcb8e901")
+		(property "Reference" "#PWR081"
+			(at 147.32 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -658,8 +658,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VBUS"
-			(at 148.59 95.25 0)
+		(property "Value" "VDD"
+			(at 147.32 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -667,7 +667,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 148.59 100.33 0)
+			(at 147.32 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -676,7 +676,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 148.59 100.33 0)
+			(at 147.32 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -684,8 +684,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 148.59 100.33 0)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 147.32 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -694,41 +694,73 @@
 			)
 		)
 		(pin "1"
-			(uuid "b82006d5-d9e8-4c42-b385-6a6af60e3c29")
+			(uuid "06561118-1832-4f23-94b2-6cbd3e5e972a")
 		)
 		(instances
 			(project "falloutbadge"
-				(path "/1a4a4e67-d7d1-492f-96ac-ef94582179fd/02dee575-2c1f-40e7-bd42-4ec056e31116"
-					(reference "#PWR073")
+				(path "/1a4a4e67-d7d1-492f-96ac-ef94582179fd/2fe96ec9-bc57-4c96-8b9a-7c7b8976d9a5"
+					(reference "#PWR089")
 					(unit 1)
 				)
-				(path "/1a4a4e67-d7d1-492f-96ac-ef94582179fd/17c2d779-556f-4455-97b6-f1a02a5e12b2"
-					(reference "#PWR0108")
+				(path "/1a4a4e67-d7d1-492f-96ac-ef94582179fd/ca2642aa-8349-4fc9-9750-554b8e7f584a"
+					(reference "#PWR081")
 					(unit 1)
 				)
-				(path "/1a4a4e67-d7d1-492f-96ac-ef94582179fd/23753e38-7fcd-4f94-86cc-0d5f54d6a022"
-					(reference "#PWR013")
-					(unit 1)
-				)
-				(path "/1a4a4e67-d7d1-492f-96ac-ef94582179fd/8bfaee0b-03fc-485a-9702-37799081cd8a"
-					(reference "#PWR053")
+				(path "/1a4a4e67-d7d1-492f-96ac-ef94582179fd/f28209f4-aebd-4921-8505-b2d277a085e6"
+					(reference "#PWR085")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:VBUS")
-		(at 116.84 100.33 0)
+		(lib_id "LED:SK6812")
+		(at 160.02 106.68 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "65886fe4-c721-4b7f-b89f-891092e9a3cc")
-		(property "Reference" "#PWR07"
-			(at 116.84 104.14 0)
+		(uuid "5485bf6f-b0c5-4cdf-abbe-f20429b4c8b5")
+		(property "Reference" "D11"
+			(at 170.18 101.2346 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812"
+			(at 170.18 103.7746 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:LED-SMD_4P-L4.0-W1.6-L"
+			(at 167.64 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
+			(at 169.545 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 160.02 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -736,60 +768,30 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VBUS"
-			(at 116.84 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 116.84 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 116.84 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 116.84 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
+		(pin "3"
+			(uuid "d84112b5-ef09-4705-9035-55e27d4628fa")
 		)
 		(pin "1"
-			(uuid "9d827b08-eab7-445f-9b2e-ab845d0499df")
+			(uuid "a72673b9-2355-45e3-aaee-8aef0692cf5c")
+		)
+		(pin "2"
+			(uuid "e0ce98c1-534a-4edf-b22d-48ac5c98838d")
+		)
+		(pin "4"
+			(uuid "58c87212-dd1d-43ee-bf49-3a8c50b27237")
 		)
 		(instances
 			(project "falloutbadge"
-				(path "/1a4a4e67-d7d1-492f-96ac-ef94582179fd/02dee575-2c1f-40e7-bd42-4ec056e31116"
-					(reference "#PWR071")
+				(path "/1a4a4e67-d7d1-492f-96ac-ef94582179fd/2fe96ec9-bc57-4c96-8b9a-7c7b8976d9a5"
+					(reference "D15")
 					(unit 1)
 				)
-				(path "/1a4a4e67-d7d1-492f-96ac-ef94582179fd/17c2d779-556f-4455-97b6-f1a02a5e12b2"
-					(reference "#PWR066")
+				(path "/1a4a4e67-d7d1-492f-96ac-ef94582179fd/ca2642aa-8349-4fc9-9750-554b8e7f584a"
+					(reference "D11")
 					(unit 1)
 				)
-				(path "/1a4a4e67-d7d1-492f-96ac-ef94582179fd/23753e38-7fcd-4f94-86cc-0d5f54d6a022"
-					(reference "#PWR07")
-					(unit 1)
-				)
-				(path "/1a4a4e67-d7d1-492f-96ac-ef94582179fd/8bfaee0b-03fc-485a-9702-37799081cd8a"
-					(reference "#PWR028")
+				(path "/1a4a4e67-d7d1-492f-96ac-ef94582179fd/f28209f4-aebd-4921-8505-b2d277a085e6"
+					(reference "D13")
 					(unit 1)
 				)
 			)
@@ -797,16 +799,16 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 175.26 101.6 0)
+		(at 143.51 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "8a610d0f-1607-4497-ab05-69e879634746")
-		(property "Reference" "#PWR016"
-			(at 175.26 107.95 0)
+		(uuid "711e3865-2f5b-4c70-a65a-b8eb63c6be3d")
+		(property "Reference" "#PWR080"
+			(at 143.51 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -815,7 +817,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 175.26 106.68 0)
+			(at 143.51 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -824,76 +826,6 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 175.26 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 175.26 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 175.26 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2bbcae9d-ddb1-443b-8403-042c99bfca16")
-		)
-		(instances
-			(project "falloutbadge"
-				(path "/1a4a4e67-d7d1-492f-96ac-ef94582179fd/02dee575-2c1f-40e7-bd42-4ec056e31116"
-					(reference "#PWR074")
-					(unit 1)
-				)
-				(path "/1a4a4e67-d7d1-492f-96ac-ef94582179fd/17c2d779-556f-4455-97b6-f1a02a5e12b2"
-					(reference "#PWR070")
-					(unit 1)
-				)
-				(path "/1a4a4e67-d7d1-492f-96ac-ef94582179fd/23753e38-7fcd-4f94-86cc-0d5f54d6a022"
-					(reference "#PWR016")
-					(unit 1)
-				)
-				(path "/1a4a4e67-d7d1-492f-96ac-ef94582179fd/8bfaee0b-03fc-485a-9702-37799081cd8a"
-					(reference "#PWR0107")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 143.51 101.6 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8d3187b6-8952-410d-b767-db65669dc789")
-		(property "Reference" "#PWR012"
-			(at 143.51 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
 			(at 143.51 106.68 0)
 			(effects
 				(font
@@ -902,17 +834,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
-			(at 143.51 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Datasheet" ""
-			(at 143.51 101.6 0)
+			(at 143.51 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -921,7 +844,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 143.51 101.6 0)
+			(at 143.51 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -930,24 +853,94 @@
 			)
 		)
 		(pin "1"
-			(uuid "948d75a6-7e93-4a50-a644-ff97af2a2f40")
+			(uuid "e22c2d35-3a6c-4c43-bc43-1dbbeddb1629")
 		)
 		(instances
 			(project "falloutbadge"
-				(path "/1a4a4e67-d7d1-492f-96ac-ef94582179fd/02dee575-2c1f-40e7-bd42-4ec056e31116"
-					(reference "#PWR072")
+				(path "/1a4a4e67-d7d1-492f-96ac-ef94582179fd/2fe96ec9-bc57-4c96-8b9a-7c7b8976d9a5"
+					(reference "#PWR088")
 					(unit 1)
 				)
-				(path "/1a4a4e67-d7d1-492f-96ac-ef94582179fd/17c2d779-556f-4455-97b6-f1a02a5e12b2"
-					(reference "#PWR067")
+				(path "/1a4a4e67-d7d1-492f-96ac-ef94582179fd/ca2642aa-8349-4fc9-9750-554b8e7f584a"
+					(reference "#PWR080")
 					(unit 1)
 				)
-				(path "/1a4a4e67-d7d1-492f-96ac-ef94582179fd/23753e38-7fcd-4f94-86cc-0d5f54d6a022"
-					(reference "#PWR012")
+				(path "/1a4a4e67-d7d1-492f-96ac-ef94582179fd/f28209f4-aebd-4921-8505-b2d277a085e6"
+					(reference "#PWR084")
 					(unit 1)
 				)
-				(path "/1a4a4e67-d7d1-492f-96ac-ef94582179fd/8bfaee0b-03fc-485a-9702-37799081cd8a"
-					(reference "#PWR047")
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDD")
+		(at 115.57 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8cf42da2-2cb5-43eb-b1e0-faa744eb5d12")
+		(property "Reference" "#PWR079"
+			(at 115.57 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VDD"
+			(at 115.57 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 115.57 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 115.57 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 115.57 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9a048ce7-6644-4edf-a02b-f211766db591")
+		)
+		(instances
+			(project "falloutbadge"
+				(path "/1a4a4e67-d7d1-492f-96ac-ef94582179fd/2fe96ec9-bc57-4c96-8b9a-7c7b8976d9a5"
+					(reference "#PWR087")
+					(unit 1)
+				)
+				(path "/1a4a4e67-d7d1-492f-96ac-ef94582179fd/ca2642aa-8349-4fc9-9750-554b8e7f584a"
+					(reference "#PWR079")
+					(unit 1)
+				)
+				(path "/1a4a4e67-d7d1-492f-96ac-ef94582179fd/f28209f4-aebd-4921-8505-b2d277a085e6"
+					(reference "#PWR083")
 					(unit 1)
 				)
 			)
@@ -955,16 +948,16 @@
 	)
 	(symbol
 		(lib_id "LED:SK6812")
-		(at 130.81 101.6 90)
+		(at 128.27 106.68 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "c3b70578-523a-4f92-b8ac-4cd0a0a1d4bf")
-		(property "Reference" "D1"
-			(at 140.97 96.1546 90)
+		(uuid "a731503c-d34c-4b28-aac4-7c65265df430")
+		(property "Reference" "D10"
+			(at 138.43 101.2346 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -972,15 +965,15 @@
 			)
 		)
 		(property "Value" "SK6812"
-			(at 140.97 98.6946 90)
+			(at 138.43 103.7746 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "falloutbadge:LED-SMD_4P-L4.0-W1.6-L"
-			(at 138.43 100.33 0)
+		(property "Footprint" "footprints:LED-SMD_4P-L4.0-W1.6-L"
+			(at 135.89 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -990,7 +983,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
-			(at 140.335 99.06 0)
+			(at 137.795 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1000,104 +993,55 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 130.81 101.6 0)
+			(at 128.27 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(property "LCSC" ""
-			(at 130.81 101.6 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "47b32b0c-b803-47ea-b1e6-502c695f6d2d")
 		)
 		(pin "3"
-			(uuid "3eaa4edd-d438-46b6-ab3e-3bf390e91080")
+			(uuid "3c8b7ac2-31f1-4141-afdb-ae539a365783")
+		)
+		(pin "1"
+			(uuid "c5f43067-0a30-4661-9dd1-c61c3d07ab0d")
 		)
 		(pin "2"
-			(uuid "e386bd80-adc1-41b0-b6e8-7fd36035864a")
+			(uuid "dd7ef8bd-5937-4b4e-b67c-1da344c9550b")
 		)
 		(pin "4"
-			(uuid "86d637a5-820c-4506-acea-8744a43f656c")
+			(uuid "c86b57e7-c5be-4b06-b4ed-780a7b2ae88f")
 		)
 		(instances
 			(project "falloutbadge"
-				(path "/1a4a4e67-d7d1-492f-96ac-ef94582179fd/02dee575-2c1f-40e7-bd42-4ec056e31116"
-					(reference "D7")
+				(path "/1a4a4e67-d7d1-492f-96ac-ef94582179fd/2fe96ec9-bc57-4c96-8b9a-7c7b8976d9a5"
+					(reference "D14")
 					(unit 1)
 				)
-				(path "/1a4a4e67-d7d1-492f-96ac-ef94582179fd/17c2d779-556f-4455-97b6-f1a02a5e12b2"
-					(reference "D5")
+				(path "/1a4a4e67-d7d1-492f-96ac-ef94582179fd/ca2642aa-8349-4fc9-9750-554b8e7f584a"
+					(reference "D10")
 					(unit 1)
 				)
-				(path "/1a4a4e67-d7d1-492f-96ac-ef94582179fd/23753e38-7fcd-4f94-86cc-0d5f54d6a022"
-					(reference "D1")
-					(unit 1)
-				)
-				(path "/1a4a4e67-d7d1-492f-96ac-ef94582179fd/8bfaee0b-03fc-485a-9702-37799081cd8a"
-					(reference "D3")
+				(path "/1a4a4e67-d7d1-492f-96ac-ef94582179fd/f28209f4-aebd-4921-8505-b2d277a085e6"
+					(reference "D12")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "LED:SK6812")
-		(at 162.56 101.6 90)
+		(lib_id "power:GND")
+		(at 175.26 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "f67dc377-cc50-49c2-8af9-480fe51aef05")
-		(property "Reference" "D2"
-			(at 172.72 96.1546 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SK6812"
-			(at 172.72 98.6946 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "falloutbadge:LED-SMD_4P-L4.0-W1.6-L"
-			(at 170.18 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
-			(at 172.085 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "RGB LED with integrated controller"
-			(at 162.56 101.6 0)
+		(uuid "aa4625f8-48c8-425b-a5c2-fbdc6a82509e")
+		(property "Reference" "#PWR082"
+			(at 175.26 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1105,8 +1049,35 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
-			(at 162.56 101.6 90)
+		(property "Value" "GND"
+			(at 175.26 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 175.26 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175.26 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 175.26 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1115,33 +1086,20 @@
 			)
 		)
 		(pin "1"
-			(uuid "27ad5729-2865-4672-b665-78222aeb239e")
-		)
-		(pin "3"
-			(uuid "f1b8ce01-acd4-4af5-90d7-8a10e66fe10e")
-		)
-		(pin "2"
-			(uuid "4c70e8ff-6c36-435e-87b2-1317de99bf14")
-		)
-		(pin "4"
-			(uuid "1c8ebb91-2f79-4fb0-af98-c2511394a248")
+			(uuid "2ccfdcd2-772e-40a9-b948-e6cda9f7eaf8")
 		)
 		(instances
 			(project "falloutbadge"
-				(path "/1a4a4e67-d7d1-492f-96ac-ef94582179fd/02dee575-2c1f-40e7-bd42-4ec056e31116"
-					(reference "D8")
+				(path "/1a4a4e67-d7d1-492f-96ac-ef94582179fd/2fe96ec9-bc57-4c96-8b9a-7c7b8976d9a5"
+					(reference "#PWR090")
 					(unit 1)
 				)
-				(path "/1a4a4e67-d7d1-492f-96ac-ef94582179fd/17c2d779-556f-4455-97b6-f1a02a5e12b2"
-					(reference "D6")
+				(path "/1a4a4e67-d7d1-492f-96ac-ef94582179fd/ca2642aa-8349-4fc9-9750-554b8e7f584a"
+					(reference "#PWR082")
 					(unit 1)
 				)
-				(path "/1a4a4e67-d7d1-492f-96ac-ef94582179fd/23753e38-7fcd-4f94-86cc-0d5f54d6a022"
-					(reference "D2")
-					(unit 1)
-				)
-				(path "/1a4a4e67-d7d1-492f-96ac-ef94582179fd/8bfaee0b-03fc-485a-9702-37799081cd8a"
-					(reference "D4")
+				(path "/1a4a4e67-d7d1-492f-96ac-ef94582179fd/f28209f4-aebd-4921-8505-b2d277a085e6"
+					(reference "#PWR086")
 					(unit 1)
 				)
 			)

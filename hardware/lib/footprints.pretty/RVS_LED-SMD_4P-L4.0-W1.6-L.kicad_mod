@@ -60,7 +60,7 @@
 	(fp_line (start -2.00 -0.24) (end 2.00 -0.24) (layer F.CrtYd) (width 0.05))
 	(fp_line (start 2.00 -0.24) (end 2.00 1.36) (layer F.CrtYd) (width 0.05))
 	(fp_line (start 2.00 1.36) (end -2.00 1.36) (layer F.CrtYd) (width 0.05))
-	(model "lib/easyeda.3dshapes/LED-SMD_4P-L4.0-W1.6-L.wrl"
+	(model "easyeda2kicad.3dshapes/LED-SMD_4P-L4.0-W1.6-L.wrl"
 		(offset (xyz 0.000 0.000 0.000))
 		(scale (xyz 1 1 1))
 		(rotate (xyz 0 0 180))
