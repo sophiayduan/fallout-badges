@@ -38,8 +38,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 1.23543,
-          "width": 3.10909
+          "height": 0.15001,
+          "width": 0.75
         },
         "silk_line_width": 0.07,
         "silk_text_italic": true,
@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.07,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.15
+          "min_clearance": 0.0
         }
       },
       "diff_pair_dimensions": [
@@ -58,12 +58,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        [
-          "clearance|170865320|52601620|68d723c5-f994-4bd3-933a-8a867a24d984|5beac2c2-1150-4d4d-a076-bd1e18ecda43",
-          "antenna"
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -542,7 +537,7 @@
       "idf": "",
       "netlist": "",
       "plot": "",
-      "pos_files": "",
+      "pos_files": "./",
       "specctra_dsn": "",
       "step": "",
       "svg": "",
@@ -587,8 +582,8 @@
         },
         {
           "group_by": false,
-          "label": "LCSC",
-          "name": "LCSC",
+          "label": "LCSC Part #",
+          "name": "LCSC Part #",
           "show": true
         },
         {
@@ -671,12 +666,6 @@
         },
         {
           "group_by": false,
-          "label": "LCSC Part",
-          "name": "LCSC Part",
-          "show": false
-        },
-        {
-          "group_by": false,
           "label": "MPN",
           "name": "MPN",
           "show": false
@@ -693,7 +682,7 @@
       "include_excluded_from_bom": true,
       "name": "",
       "sort_asc": true,
-      "sort_field": "${EXCLUDE_FROM_BOM}"
+      "sort_field": "Value"
     },
     "connection_grid_size": 50.0,
     "drawing": {

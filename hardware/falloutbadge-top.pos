@@ -1,0 +1,12 @@
+### Footprint positions - created on 2026-06-07T00:58:10-0400 ###
+### Printed by KiCad version 9.0.7
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref     Val         Package                                     PosX       PosY       Rot  Side
+BZ1       Buzzer      Buzzer_TDK_PS1240P02BT_D12.2mm_H6.5mm   177.6500  -135.1250  -90.0000  top
+J5        Conn_01x03  PinHeader_1x03_P2.54mm_Vertical         111.9600  -111.3500   90.0000  top
+SW2       SW_Push     SW_PUSH-12mm                            151.4000  -129.7250    0.0000  top
+SW3       SW_Push     SW_PUSH-12mm                            140.9000  -122.2000  180.0000  top
+SW4       SW_Push     SW_PUSH-12mm                            115.3000  -129.7250    0.0000  top
+SW5       SW_Push     SW_PUSH-12mm                            177.0000  -122.2000  180.0000  top
+## End
