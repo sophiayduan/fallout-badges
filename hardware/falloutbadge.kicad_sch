@@ -15501,6 +15501,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C87494"
+			(at 279.4 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "05f1a812-ce27-453a-9c08-ed5f8065f68d")
 		)
@@ -21520,7 +21529,7 @@
 				)
 			)
 		)
-		(property "Footprint" "falloutbadge:FPC-SMD_24P-P0.50_05B20U24P"
+		(property "Footprint" "Connector_FFC-FPC:TE_2-1734839-4_1x24-1MP_P0.5mm_Horizontal"
 			(at 245.11 240.03 0)
 			(effects
 				(font
@@ -22896,6 +22905,15 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 279.4 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C87494"
 			(at 279.4 209.55 0)
 			(effects
 				(font
@@ -25505,6 +25523,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C87494"
+			(at 279.4 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e74049ec-4241-4467-b042-86237ab47109")
 		)
@@ -27495,6 +27522,15 @@
 			)
 		)
 		(property "KLC_S4.2_VREG_VOUT" ""
+			(at 279.4 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C87494"
 			(at 279.4 240.03 0)
 			(effects
 				(font
