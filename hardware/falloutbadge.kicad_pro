@@ -38,8 +38,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 0.15001,
-          "width": 0.75
+          "height": 1.23543,
+          "width": 12.344
         },
         "silk_line_width": 0.07,
         "silk_text_italic": true,
@@ -675,6 +675,12 @@
           "label": "Field8",
           "name": "Field8",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC",
+          "name": "LCSC",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -728,18 +734,6 @@
     [
       "1a4a4e67-d7d1-492f-96ac-ef94582179fd",
       "Root"
-    ],
-    [
-      "ca2642aa-8349-4fc9-9750-554b8e7f584a",
-      "ledblock"
-    ],
-    [
-      "f28209f4-aebd-4921-8505-b2d277a085e6",
-      "ledblock1"
-    ],
-    [
-      "2fe96ec9-bc57-4c96-8b9a-7c7b8976d9a5",
-      "ledblock2"
     ]
   ],
   "text_variables": {}
