@@ -18,12 +18,21 @@ nice_fonts = {
 
 class DisplayManager:
     def __init__(self):
-        self.spi = SPI(0, baudrate=1_000_000, polarity=0, phase=0, sck=Pin(18), mosi=Pin(19), miso=Pin(20))
+        self.spi = SPI(1, baudrate=1_000_000, polarity=0, phase=0, sck=Pin(10), mosi=Pin(11))
 
-        self.cs = Pin(24, Pin.OUT)
-        self.dc = Pin(25, Pin.OUT)
-        self.rst = Pin(26, Pin.OUT)
-        self.busy = Pin(27, Pin.IN)
+        # PROTOTYPE
+        # self.cs = Pin(24, Pin.OUT)
+        # self.dc = Pin(25, Pin.OUT)
+        # self.rst = Pin(26, Pin.OUT)
+        # self.busy = Pin(27, Pin.IN)
+
+
+        # FALLOUT
+
+        self.cs = Pin(16, Pin.OUT)
+        self.dc = Pin(17, Pin.OUT)
+        self.rst = Pin(18, Pin.OUT)
+        self.busy = Pin(19, Pin.IN)
 
         self.display = einkdriver.EPD(self.spi, self.cs, self.dc, self.rst, self.busy)
         self.display.init()
