@@ -32,8 +32,8 @@ import framebuf
 import utime
 
 # Display resolution
-EPD_WIDTH       = 176
-EPD_HEIGHT      = 264
+EPD_WIDTH       = 264
+EPD_HEIGHT      = 176
 
 RST_PIN         = 12
 DC_PIN          = 8
@@ -176,7 +176,7 @@ class EPD:
             self.send_data(self.LUT_DATA_4Gray[i])
             
     def init(self):
-            
+
         # EPD hardware init start
         self.reset()
         self.ReadBusy()
@@ -184,18 +184,31 @@ class EPD:
         self.send_command(0x12) #SWRESET
         self.ReadBusy()
 
-        self.send_command(0x45) #set Ram-Y address start/end position          
+        self.send_command(0x01) #Driver output control: 264 gates, progressive scan
+        self.send_data(0x07)
+        self.send_data(0x01)    #0x0107-->(263+1)=264 gates
+        self.send_data(0x00)    #GD=0, SM=0 (progressive), TB=0
+
+        self.send_command(0x11)  # data entry mode: X increment, Y increment
+        self.send_data(0x03)
+
+        self.send_command(0x44) #set Ram-X address start/end position
+        self.send_data(0x00)
+        self.send_data(0x15)    #0x15-->(21+1)*8=176
+
+        self.send_command(0x45) #set Ram-Y address start/end position
         self.send_data(0x00)
         self.send_data(0x00)
         self.send_data(0x07) #0x0107-->(263+1)=264
         self.send_data(0x01)
 
-        self.send_command(0x4F)   # set RAM y address count to 0;    
+        self.send_command(0x4E)   # set RAM x address count to 0
+        self.send_data(0x00)
+
+        self.send_command(0x4F)   # set RAM y address count to 0
         self.send_data(0x00)
         self.send_data(0x00)
 
-        self.send_command(0x11)  # data entry mode
-        self.send_data(0x03)
         return 0
         
     def init_Fast(self):
