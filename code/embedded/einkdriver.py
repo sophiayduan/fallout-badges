@@ -116,7 +116,7 @@ class EPD:
         self.digital_write(self.reset_pin, 1)
         self.delay_ms(200) 
         self.digital_write(self.reset_pin, 0)
-        self.delay_ms(2)
+        self.delay_ms(10)
         self.digital_write(self.reset_pin, 1)
         self.delay_ms(200)   
 
@@ -182,6 +182,9 @@ class EPD:
         self.ReadBusy()
 
         self.send_command(0x12) #SWRESET
+        self.ReadBusy()
+
+        self.send_command(0x04) #Power On
         self.ReadBusy()
 
         self.send_command(0x01) #Driver output control: 264 gates, progressive scan
