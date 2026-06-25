@@ -146,10 +146,12 @@ class EPD:
         print("e-Paper busy release")
         
     def TurnOnDisplay(self):
+        print("TurnOnDisplay start")
         self.send_command(0x22) #Display Update Control
         self.send_data(0xF7)
         self.send_command(0x20) #Activate Display Update Sequence
         self.ReadBusy()
+        print("TurnOnDisplay done")
         
     def TurnOnDisplay_Fast(self):
         self.send_command(0x22) #Display Update Control
@@ -322,6 +324,7 @@ class EPD:
         Height = self.height
         self.send_command(0x24)
         self.send_data1([0xff] * Width * Height)
+        print("clear: calling TurnOnDisplay")
         self.TurnOnDisplay()
     
     def display(self, image):
@@ -332,6 +335,7 @@ class EPD:
         Height = self.height
         self.send_command(0x24)
         self.send_data1(image)
+        print("display: calling TurnOnDisplay")
         self.TurnOnDisplay()
         
     def display_Landscape(self, image):
@@ -344,6 +348,7 @@ class EPD:
         for j in range(Height):
             for i in range(Width):
                 self.send_data(image[(21-i) * Height + j])
+        print("display_Landscape: calling TurnOnDisplay")
         self.TurnOnDisplay()
         
     def display_Fast(self, image):
@@ -354,6 +359,7 @@ class EPD:
         Height = self.height
         self.send_command(0x24)
         self.send_data1(image)
+        print("display_Fast: calling TurnOnDisplay_Fast")
         self.TurnOnDisplay_Fast()
         
     def display_Base(self, image):
@@ -364,10 +370,11 @@ class EPD:
         Height = self.height
         self.send_command(0x24)   #Write Black and White image to RAM
         self.send_data1(image)
-                
+
         self.send_command(0x26)  #Write Black and White image to RAM
         self.send_data1(image)
-        
+
+        print("display_Base: calling TurnOnDisplay")
         self.TurnOnDisplay()
         
     def display_Base_color(self, color):
